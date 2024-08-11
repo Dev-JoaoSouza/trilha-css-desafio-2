@@ -1,0 +1,178 @@
+@import url('reset.css');
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    height: 56px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+header .left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+header .center {
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+header .center input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+header .center .btn-search {
+    width: 57px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+main {
+    margin: 28px 0 12px;
+    display: flex;
+    gap: 24px;
+    padding: 0 16px 0 75px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 952px;
+}
+
+section .video {
+    width: 100%;
+}
+
+section .video img {
+    width: 100%;
+}
+
+section h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000;
+}
+
+section .descricao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 902px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+section .descricao .channel-info {
+    display: flex;
+    gap: 12px;
+}
+
+section .descricao .channel-info .info {
+    display: flex;
+    flex-direction: column;
+}
+
+section .descricao .channel-info .info h4, span {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #000;
+}
+
+section .descricao .channel-info .info span {
+    font-weight: 400;
+    color: #515151;
+}
+
+section .descricao button {
+    width: 159px;
+    height: 40px;
+    background-color: #cc0000;
+    border-radius: 2px;
+    font-size: 0.875rem;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+section .descricao .like, .dislike, .share, .download {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+section .descricao span {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #000;
+}
+
+section h2 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #000;
+}
+
+section p {
+    max-width: 510px;
+    width: 100%;
+    font-size: 0.875rem;
+    color: #515151;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+aside .recomendacao {
+    display: flex;
+    gap: 16px;
+}
+
+aside .recomendacao .thumb {
+    width: 160px;
+    height: 90px;
+}
+
+aside .recomendacao .thumb-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 196px;
+}
+
+aside .recomendacao .thumb-descricao h3 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #000;
+    height: 32px;
+}
+
+aside .recomendacao .thumb-descricao span, p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #515151;
+}
